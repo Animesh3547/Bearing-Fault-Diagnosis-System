@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+venv/
+.env
+
+models/*.pth
+
+datasets/
+outputs/
+
+.streamlit/
+
+.ipynb_checkpoints/
