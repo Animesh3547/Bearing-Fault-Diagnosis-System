@@ -1,6 +1,6 @@
 # Bearing Fault Diagnosis & Predictive Maintenance System
 
-An end-to-end vibration-based bearing fault diagnosis pipeline using signal processing, spectrogram analysis, convolutional neural networks (CNNs), and cross-domain robustness evaluation for predictive maintenance applications.
+An end-to-end vibration-based bearing fault diagnosis pipeline using signal processing, spectrogram analysis, convolutional neural networks (CNNs), and cross-domain robustness evaluation for predictive maintenance applications..
 
 ## Overview
 
