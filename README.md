@@ -803,7 +803,7 @@ Bearing-Fault-Diagnosis-System/
 
 ## Future Roadmap
 
-### Phase 1 — Core Fault Diagnosis System ✅
+### Phase 1 — Core Fault Diagnosis System 
 
 Completed components:
 
@@ -820,7 +820,7 @@ Completed components:
 
 ---
 
-### Phase 2 — Engineering Presentation & Documentation 🚧
+### Phase 2 — Engineering Presentation & Documentation 
 
 Current focus areas:
 
@@ -833,7 +833,7 @@ Current focus areas:
 
 ---
 
-### Phase 3 — Advanced Robust Predictive Maintenance System 🔬
+### Phase 3 — Advanced Robust Predictive Maintenance System 
 
 Planned future extensions:
 
