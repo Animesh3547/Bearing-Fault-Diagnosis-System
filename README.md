@@ -743,44 +743,40 @@ The Streamlit interface was designed to demonstrate how vibration-based predicti
 
 ## Repository Structure
 
+## Repository Structure
+
 ```text
 Bearing-Fault-Diagnosis-System/
 │
 ├── app/
 │   └── streamlit_app.py
 │
-├── src/
-│   ├── config.py
-│   ├── dataset.py
-│   ├── dataset_generator.py
-│   ├── model.py
-│   ├── train.py
-│   ├── inference.py
-│   ├── ims_adapter.py
-│   └── signal_to_spectrogram.py
+├── docs/
+│   └── figures/
+│       └── screenshots/
 │
-├── datasets/
-│   ├── cwru/
-│   ├── ims/
-│   └── processed/
+├── experiments/
+│   ├── compare_domains.py
+│   ├── ims_temporal_test.py
+│   └── test_ims_adapter.py
 │
 ├── models/
 │   └── bearing_cnn.pth
 │
-├── outputs/
-│   ├── plots/
-│   ├── predictions/
-│   └── confusion_matrix/
+├── src/
+│   ├── model.py
+│   ├── train.py
+│   ├── inference.py
+│   ├── evaluate.py
+│   ├── dataloader.py
+│   ├── signal_to_spectrogram.py
+│   ├── ims_adapter.py
+│   └── utils.py
 │
-├── docs/
-│   ├── architecture/
-│   ├── figures/
-│   └── report/
-│
-├── notebooks/
-│
+├── README.md
+├── LICENSE
 ├── requirements.txt
-└── README.md
+└── .gitignore
 ```
 
 ## Technologies Used
