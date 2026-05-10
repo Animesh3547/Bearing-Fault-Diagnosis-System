@@ -1,6 +1,22 @@
 # Bearing Fault Diagnosis & Predictive Maintenance System
 
-An end-to-end vibration-based bearing fault diagnosis pipeline using signal processing, spectrogram analysis, convolutional neural networks (CNNs), and cross-domain robustness evaluation for predictive maintenance applications..
+<p align="center">
+
+
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-DeepLearning-red)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+
+
+End-to-end vibration-based bearing fault diagnosis pipeline using signal processing, STFT spectrograms, convolutional neural networks (CNNs), robustness evaluation, and cross-domain predictive maintenance analysis.
+
+</p>
+
+---
+
+
 
 ## Overview
 
@@ -245,6 +261,12 @@ The model architecture was intentionally kept relatively lightweight and interpr
 rather than maximizing architectural complexity.
 
 ## Results
+
+### End-to-End Inference Pipeline
+
+<p align="center">
+  <img src="docs/figures/screenshots/inference_pipeline.png" width="90%">
+</p>
 
 ### 1. Same-Domain Classification Performance (CWRU Dataset)
 
@@ -672,6 +694,12 @@ The Streamlit application supports:
 - Interactive fault prediction
 
 ## Streamlit Deployment
+
+### Dashboard Interface
+
+<p align="center">
+  <img src="docs/figures/screenshots/dashboard_overview.png" width="90%">
+</p>
 
 An interactive Streamlit-based deployment interface was developed for real-time inference experimentation and demonstration.
 
